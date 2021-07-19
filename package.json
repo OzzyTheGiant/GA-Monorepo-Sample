@@ -1,12 +1,18 @@
 {
-    "name": "monorepo",
-    "description": "Repository for Gate Access and Gate Access Administration apps",
-    "private": true,
-    "workspaces": [
-        "app-1",
-        "app-2",
-        "ga-shared"
-    ],
-    "author": "Ozzy Perez",
-    "license": "ISC"
+  "name": "monorepo",
+  "description": "Repository for Gate Access and Gate Access Administration apps",
+  "private": true,
+  "workspaces": [
+    "app-1",
+    "app-2",
+    "ga-shared"
+  ],
+  "author": "Ozzy Perez",
+  "license": "ISC",
+  "devDependencies": {
+    "@nrwl/workspace": "latest",
+    "@nrwl/cli": "latest",
+    "@nrwl/tao": "latest",
+    "typescript": "4.2.4"
+  }
 }

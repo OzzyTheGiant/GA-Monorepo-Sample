@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "projects": {
+    "app-1": {
+      "root": "app-1",
+      "type": "application"
+    },
+    "app-2": {
+      "root": "app-2",
+      "type": "application"
+    },
+    "ga-shared": {
+      "root": "ga-shared",
+      "type": "library"
+    }
+  }
+}
